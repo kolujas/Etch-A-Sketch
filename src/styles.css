@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.btn{
+  border: none;
+  padding: 6px;
+  font-size: 18px;
+  border-radius: 5px;
+  color: #fff;
+  background-color: rgb(1, 175, 117);
+  cursor: pointer;
+}
+
+.action-container{
+  display: flex;
+  justify-content: center;
+  margin: 15px 0;
+  gap: 10px;
+}
+
+.wrapper{
+  display: flex;
+  justify-content: center;
+}
+
+#container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 800px;
+  height: auto;
+  border: 1px solid #000;
+  display: none;
+}
+
+.div-grilla {
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+
+.square{
+  background-color: aquamarine;
+  height: 16px;
+  width: 16px;
+  border: 1px solid black;
+}
